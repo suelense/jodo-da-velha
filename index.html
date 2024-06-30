@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>JOGO DA VELHA</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">JOGO DA VELHA</h1>
+        <div class="icons">
+            <p>YOU = <img class="icon" src="./images/x.png"></p>
+            <p>PC = <img class="icon" src="./images/o.png"></p>
+        </div>
+    </header>
+    <main>
+        <section class="game">
+            <div class="row">
+                <div class="square" id="square1" onclick="play('1')"></div>
+                <div class="square" id="square2" onclick="play('2')"></div>
+                <div class="square" id="square3" onclick="play('3')"></div>
+            </div>
+            <div class="row">
+                <div class="square" id="square4" onclick="play('4')"></div>
+                <div class="square" id="square5" onclick="play('5')"></div>
+                <div class="square" id="square6" onclick="play('6')"></div>
+            </div>
+            <div class="row">
+                <div class="square" id="square7" onclick="play('7')"></div>
+                <div class="square" id="square8" onclick="play('8')"></div>
+                <div class="square" id="square9" onclick="play('9')"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,66 @@
+body {
+    color: midnightblue;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+    text-align: center;
+}
+
+.icons {
+    width: 30%;
+    display: flex;
+    margin: auto;
+}
+
+.icon {
+    width: 20%;
+}
+
+.gameIcon {
+    margin: 20%;
+    width: 60%;
+}
+
+.game {
+    width: 60%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.square {
+    width: 32%;
+    height: 0;
+    padding-bottom: 32%;
+    background-color: aliceblue;
+    border: midnightblue solid;
+}
+
+.square:hover {
+    background-color: rgb(162, 194, 223);
+}
+
+#square1,
+#square2,
+#square3 {
+    border-top: none;
+}
+
+#square1,
+#square4,
+#square7 {
+    border-left: none;
+}
+
+#square7,
+#square8,
+#square9 {
+    border-bottom: none;
+}
+
+#square3,
+#square6,
+#square9 {
+    border-right: none;
+}
